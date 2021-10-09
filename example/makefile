@@ -1,5 +1,5 @@
 CXX := g++
-CFLAGS := -pthread -O3 -Wall -g -DBOOST_BIND_GLOBAL_PLACEHOLDERS
+CFLAGS := -pthread -O3 -Wall -g -DBOOST_BIND_GLOBAL_PLACEHOLDERS -std=c++14
 .PHONY : clean
 
 all: server client
