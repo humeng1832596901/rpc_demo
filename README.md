@@ -8,7 +8,7 @@
 对处理CPU密集型过程的主机进行集群，便可更进一步提高系统性能。不过，这样子就会面临一个问题，传统的IPC方式将不在适用，因为这些过程都不在同一个主机中，于是就有了rpc。
 
 ### 使用
-由于代码量较小，所有文件均为.h头文件，将源代码包含进源程序即可(详见example)，网络通信部分依赖asio库。c++版本要求>=14。
+由于代码量较小，所有文件均为.h头文件，将源代码包含进源程序即可(详见example)，网络通信部分依赖asio库，序列化和反序列化使用msgpack。c++版本要求>=14。
 
 ### 代码统计
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/8c2d1bf995af428b94d79f5fc1117ef4.jpg?x-oss-process=image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBAcXFfMjAwMTQ2MTE=,size_20,color_FFFFFF,t_70,g_se,x_16#pic_center)
