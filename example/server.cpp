@@ -1,10 +1,3 @@
-/*******************************************************************
-	> File Name: test.cpp
-	> Author: 胡孟
-	> Mail: 13535324513@163.com
-	> Created Time: Mon 27 Sep 2021 06:10:29 PM CST
- ******************************************************************/
-
 #include <iostream>
 #include <tuple>
 #include "../include/rpc_server.h"
