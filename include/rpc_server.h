@@ -36,7 +36,7 @@ decltype(auto) call_func(F&& func, T&& t){
     return call_func_helper(std::forward<F>(func), std::make_index_sequence<size>{}, std::forward<T>(t));
 }
 
-/*懒汉模式*/
+/*饿汉模式*/
 class rpcServer{
 public:
     void init(const char* path, const int threadNums=std::thread::hardware_concurrency()){
