@@ -1,10 +1,3 @@
-/*******************************************************************
-	> File Name: client.cpp
-	> Author: 胡孟
-	> Mail: 13535324513@163.com
-	> Created Time: Mon 27 Sep 2021 03:24:36 PM CST
- ******************************************************************/
-
 #include <iostream>
 #include <string>
 #include "../include/rpc_client.h"
