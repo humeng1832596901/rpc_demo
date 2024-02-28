@@ -65,9 +65,6 @@ int main(int argc, char** argv){
 ### 代码统计
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/8c2d1bf995af428b94d79f5fc1117ef4.jpg?x-oss-process=image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBAcXFfMjAwMTQ2MTE=,size_20,color_FFFFFF,t_70,g_se,x_16#pic_center)
 
-### 其他代码细节
-[知乎文章](https://zhuanlan.zhihu.com/p/419860500)
-
 ### To-do List
 - [x] 函数注册和调用
   - [x] 普通函数
